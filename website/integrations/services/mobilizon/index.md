@@ -15,7 +15,7 @@ sidebar_label: Mobilizon
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `mobilizon.company` is the FQDN of the mobilizon install.
 - `authentik.company` is the FQDN of the authentik install.

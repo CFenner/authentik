@@ -15,7 +15,7 @@ sidebar_label: Oracle Cloud
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `authentik.company` is the FQDN of authentik.
 

@@ -96,7 +96,7 @@ export class UserOAuthAccessTokenList extends Table<TokenModel> {
                       <small>${item.expires.toLocaleString()}</small>`
                 : msg("-")}`,
             html`<ak-chip-group>
-                ${item.scope.sort().map((scope) => {
+                ${item.scope.map((scope) => {
                     return html`<ak-chip .removable=${false}>${scope}</ak-chip>`;
                 })}
             </ak-chip-group>`,

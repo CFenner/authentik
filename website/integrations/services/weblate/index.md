@@ -15,7 +15,7 @@ sidebar_label: Weblate
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `weblate.company` is the FQDN of the Weblate install.
 - `authentik.company` is the FQDN of the authentik install.

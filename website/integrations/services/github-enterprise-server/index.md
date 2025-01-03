@@ -15,7 +15,7 @@ sidebar_label: GitHub Enterprise Server
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `https://github.company` is your GitHub Enterprise Server installation
 - `authentik.company` is the FQDN of the authentik Install

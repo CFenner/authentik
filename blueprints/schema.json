@@ -3884,7 +3884,8 @@
                     {
                         "type": "object",
                         "required": [
-                            "model"
+                            "model",
+                            "identifiers"
                         ],
                         "properties": {
                             "model": {
@@ -3913,6 +3914,9 @@
                                 "$ref": "#/$defs/model_authentik_blueprints.metaapplyblueprint_permissions"
                             },
                             "attrs": {
+                                "$ref": "#/$defs/model_authentik_blueprints.metaapplyblueprint"
+                            },
+                            "identifiers": {
                                 "$ref": "#/$defs/model_authentik_blueprints.metaapplyblueprint"
                             }
                         }
@@ -4159,7 +4163,7 @@
                 "re_evaluate_policies": {
                     "type": "boolean",
                     "title": "Re evaluate policies",
-                    "description": "Evaluate policies when the Stage is presented to the user."
+                    "description": "Evaluate policies when the Stage is present to the user."
                 },
                 "order": {
                     "type": "integer",

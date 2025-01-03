@@ -19,7 +19,7 @@ GitHub Enterprise Cloud EMU (Enterprise Managed Users) are not compatible with a
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `github.com/enterprises/foo` is your GitHub organization, where `foo` is the name of your enterprise
 - `authentik.company` is the FQDN of the authentik Install

@@ -24,7 +24,7 @@ built-in authentication.
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `inventory.company` is the FQDN of the snipe-it install.
 - `authentik.company` is the FQDN of the authentik install.

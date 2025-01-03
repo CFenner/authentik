@@ -100,7 +100,7 @@ export class AKElement extends LitElement {
         this._applyTheme(root, await this.getTheme());
     }
 
-    async _initCustomCSS(root: DocumentOrShadowRoot): Promise<void> {
+    private async _initCustomCSS(root: DocumentOrShadowRoot): Promise<void> {
         const sheets = await fetchCustomCSS();
         sheets.map((css) => {
             if (css === "") {

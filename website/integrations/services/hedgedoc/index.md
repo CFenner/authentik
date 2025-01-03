@@ -15,7 +15,7 @@ sidebar_label: HedgeDoc
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `hedgedoc.company` is the FQDN of the HedgeDoc install.
 - `authentik.company` is the FQDN of the authentik install.

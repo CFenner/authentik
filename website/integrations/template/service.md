@@ -15,7 +15,7 @@ sidebar_label: Service Name
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `service.company` is the FQDN of the Service install. (Remove this for SaaS)
 - `authentik.company` is the FQDN of the authentik install.

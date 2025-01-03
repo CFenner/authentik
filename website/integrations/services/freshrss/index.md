@@ -15,7 +15,7 @@ sidebar_label: FreshRSS
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `freshrss.company` is the FQDN of the FreshRSS install.
 - `port` is the port on which the FreshRSS install is running (usually 443)

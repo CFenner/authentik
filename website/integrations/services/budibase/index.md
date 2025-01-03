@@ -15,7 +15,7 @@ sidebar_label: Budibase
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `budibase.company` is the FQDN of the Budibase install.
 - `authentik.company` is the FQDN of the authentik install.

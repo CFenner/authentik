@@ -6,7 +6,7 @@ title: FreeIPA
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `svc_authentik` is the name of the bind account.
 - `freeipa.company` is the Name of the domain.

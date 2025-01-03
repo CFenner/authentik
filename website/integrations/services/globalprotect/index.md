@@ -17,7 +17,7 @@ sidebar_label: GlobalProtect
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `gp.company` is the FQDN of the GlobalProtect portal.
 - `authentik.company` is the FQDN of the authentik install.

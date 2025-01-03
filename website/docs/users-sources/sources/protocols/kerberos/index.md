@@ -11,7 +11,7 @@ This source allows users to enroll themselves with an existing Kerberos identity
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `REALM.COMPANY` is the Kerberos realm.
 - `authentik.company` is the FQDN of the authentik install.

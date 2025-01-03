@@ -15,7 +15,7 @@ sidebar_label: SonarQube
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `sonarqube.company` is the FQDN of the sonarqube install.
 - `authentik.company` is the FQDN of the authentik install.

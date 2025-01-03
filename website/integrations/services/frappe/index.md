@@ -19,7 +19,7 @@ These instructions apply to all projects in the Frappe Family.
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `frappe.company` is the FQDN of the Frappe install.
 - `authentik.company` is the FQDN of the authentik install.

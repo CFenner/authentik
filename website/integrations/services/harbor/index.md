@@ -15,7 +15,7 @@ sidebar_label: Harbor
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `harbor.company` is the FQDN of the Harbor install.
 - `authentik.company` is the FQDN of the authentik install.

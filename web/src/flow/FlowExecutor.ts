@@ -231,11 +231,7 @@ export class FlowExecutor extends Interface implements StageHost {
 
     async firstUpdated(): Promise<void> {
         configureSentry();
-        if (
-            this.config?.capabilities.includes(CapabilitiesEnum.CanDebug) &&
-            // Only open inspector automatically in debug when we have enough space for it
-            window.innerWidth >= 768
-        ) {
+        if (this.config?.capabilities.includes(CapabilitiesEnum.CanDebug)) {
             this.inspectorOpen = true;
         }
         this.loading = true;

@@ -349,7 +349,7 @@ paths:
           description: ''
   /admin/workers/:
     get:
-      operationId: admin_workers_list
+      operationId: admin_workers_retrieve
       description: Get currently connected worker count.
       tags:
       - admin
@@ -360,9 +360,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/Worker'
+                $ref: '#/components/schemas/Workers'
           description: ''
         '400':
           content:
@@ -22090,9 +22088,6 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/SAMLMetadata'
-            application/xml:
-              schema:
-                $ref: '#/components/schemas/SAMLMetadata'
           description: ''
         '404':
           description: Provider has no application assigned
@@ -42396,7 +42391,7 @@ components:
           description: Evaluate policies during the Flow planning process.
         re_evaluate_policies:
           type: boolean
-          description: Evaluate policies when the Stage is presented to the user.
+          description: Evaluate policies when the Stage is present to the user.
         order:
           type: integer
           maximum: 2147483647
@@ -42432,7 +42427,7 @@ components:
           description: Evaluate policies during the Flow planning process.
         re_evaluate_policies:
           type: boolean
-          description: Evaluate policies when the Stage is presented to the user.
+          description: Evaluate policies when the Stage is present to the user.
         order:
           type: integer
           maximum: 2147483647
@@ -48954,7 +48949,7 @@ components:
           description: Evaluate policies during the Flow planning process.
         re_evaluate_policies:
           type: boolean
-          description: Evaluate policies when the Stage is presented to the user.
+          description: Evaluate policies when the Stage is present to the user.
         order:
           type: integer
           maximum: 2147483647
@@ -56992,19 +56987,13 @@ components:
       required:
       - aaguid
       - description
-    Worker:
+    Workers:
       type: object
       properties:
-        worker_id:
-          type: string
-        version:
-          type: string
-        version_matching:
-          type: boolean
+        count:
+          type: integer
       required:
-      - version
-      - version_matching
-      - worker_id
+      - count
     modelRequest:
       oneOf:
       - $ref: '#/components/schemas/GoogleWorkspaceProviderRequest'

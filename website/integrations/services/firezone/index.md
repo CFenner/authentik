@@ -15,7 +15,7 @@ sidebar_label: Firezone
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `firezone.company` is the FQDN of the Firezone install.
 - `authentik` is the unique ID used to generate logins for this provider.

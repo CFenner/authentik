@@ -19,7 +19,7 @@ This is based on authentik 2021.7.3 and Portainer 2.6.x-CE. Portainer 2.6 suppor
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `portainer.company` is the FQDN of Portainer.
 - `authentik.company` is the FQDN of authentik.

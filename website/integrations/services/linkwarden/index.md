@@ -15,7 +15,7 @@ sidebar_label: Linkwarden
 
 ## Preparation
 
-The following placeholders are used in this guide:
+The following placeholders will be used:
 
 - `linkwarden.company` is the FQDN of the Linkwarden install.
 - `authentik.company` is the FQDN of the authentik install.
